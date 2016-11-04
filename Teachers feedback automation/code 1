@@ -1,0 +1,28 @@
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.common.action_chains import ActionChains
+
+
+driver =  webdriver.Chrome()
+driver.get("https://academia.srmuniv.ac.in")
+assert "academia-academic-services Login" in driver.title
+
+#username=raw_input("Enter your username")
+#password=raw_input("Enter your password")
+username="user"
+password="user"
+
+elem=driver.find_element_by_name("username")
+elem.clear()
+elem.send_keys(username)
+
+
+elem=driver.find_element_by_name("password")
+elem.clear()
+elem.send_keys(password)
+
+
+
+
+driver.close();
