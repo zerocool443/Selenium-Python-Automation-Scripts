@@ -1,3 +1,4 @@
+#Please use your username and password for academia in code
 import time
 from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
@@ -19,9 +20,9 @@ driver.switch_to.frame(iframe2)
 #Use of two iframe objects is because the form containing input field is inside an iframe which is inside an iframe 
 
 username = driver.find_element_by_id("Email")
-username.send_keys("akashthakur_iqbal@srmuniv.edu.in")
+username.send_keys("username")
 password = driver.find_element_by_id("Password")
-password.send_keys("9A5L8K6I1")
+password.send_keys("password")
 
 
 driver.find_element_by_id("signinBtn").click();
