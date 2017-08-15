@@ -1,0 +1,9 @@
+zzzscore.com - This is just another game to test your visionary skills.
+
+Following code will let you automate the process of finding the blocks in the sequence and clicking on them to finish the game in lowest possible time.
+
+
+How to use ?
+
+
+Just:  python zzzscore.py

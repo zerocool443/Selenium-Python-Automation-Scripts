@@ -20,9 +20,9 @@ driver.switch_to.frame(iframe2)
 #Use of two iframe objects is because the form containing input field is inside an iframe which is inside an iframe 
 
 username = driver.find_element_by_id("Email")
-username.send_keys("username")
+username.send_keys("mayank_verma@srmuniv.edu.in")
 password = driver.find_element_by_id("Password")
-password.send_keys("password")
+password.send_keys("jai1996m")
 
 
 driver.find_element_by_id("signinBtn").click();
