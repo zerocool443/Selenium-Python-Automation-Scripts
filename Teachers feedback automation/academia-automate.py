@@ -49,5 +49,6 @@ for i in range(4,8):
 		temp.click()
 		driver.execute_script("arguments[0].textContent = arguments[1]", temp, "Excellent")
 
+#-----------------
 
 #driver.find_element_by_xpath('//*[@id="Student_Feedback_Form_2016_17_3"]/div[1]/form/table/tbody/tr/td/span/input[1]').click();		
